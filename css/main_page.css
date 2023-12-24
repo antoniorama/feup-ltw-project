@@ -1,0 +1,38 @@
+#mainpage {
+  justify-content: center;
+  align-items: center;
+}
+
+.container-mainpage {
+  text-align: center;
+  width: 30%;
+}
+
+.container-mainpage .welcome_text {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0rem 1.1rem 3.1rem 0rem;
+  white-space: nowrap;
+}
+
+.container-mainpage .button-main-page {
+  align-items: center;
+  background-color: #4d47c3;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.4rem 6.1rem rgba(77, 71, 195, 0.400000006);
+  color: #ffffff;
+  display: flex;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 4rem;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+  width: 100%;
+  margin-bottom: 2rem;
+}

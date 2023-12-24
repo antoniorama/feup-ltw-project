@@ -1,0 +1,66 @@
+#loginpage {
+  justify-content: center;
+  align-items: center;
+}
+
+.container-loginpage {
+  text-align: center;
+}
+
+.sign_in_text {
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0rem 0.8rem 2.2rem 0rem;
+}
+
+.login input {
+  background-color: #efefff;
+  border: none;
+  border-radius: 0.8rem;
+  color: #a7a2ff;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.5rem;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5;
+  padding: 2rem 2.6rem 1.9rem 2.6rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.login input[type="password"] {
+  margin-bottom: 3rem;
+}
+
+.login button {
+  background-color: #4d47c3;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.4rem 6.1rem rgba(77, 71, 195, 0.400000006);
+  color: #ffffff;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 5.9rem;
+  justify-content: center;
+  line-height: 1.5;
+  width: 90%;
+  margin-top: 3vh;
+}
+
+.text-to-other-page {
+  color: #000000;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.container-loginpage .text_invalid_login {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 2vh;
+}

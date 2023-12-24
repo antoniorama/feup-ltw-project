@@ -1,0 +1,37 @@
+:root {
+  --main-color: #d3d1f0;
+  --main-color-hover: #6d68c3;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+p {
+  color: #000000;
+  display: inline-block;
+  font-family: Roboto, "Source Sans Pro";
+}
+
+textarea {
+  resize: vertical;
+  max-height: 200px;
+}

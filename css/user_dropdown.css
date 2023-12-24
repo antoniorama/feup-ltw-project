@@ -1,0 +1,124 @@
+.user-tab-all {
+  right: 1rem;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.user a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.user {
+  position: relative;
+  align-items: center;
+  background-color: #dfe77d;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  margin-top: 0.4rem;
+  padding: 0.9rem 2rem 0.8rem 1.2rem;
+  width: fit-content;
+}
+
+.user .text_username {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+.user .arrow {
+  flex-shrink: 0;
+  height: 1.2rem;
+  margin-right: 1.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  width: 1.9rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  margin-top: 1vh;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dropdown-content .profile {
+  position: relative;
+  background-color: #d3d1f0;
+  border-radius: 1rem;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  padding: 0.9rem 2rem 0.8rem 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.dropdown-content .profile .profile_text {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+.dropdown-content .profile .profile_icon {
+  flex-shrink: 0;
+  height: 2.2rem;
+  margin-right: 1.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  width: 3.2513rem;
+}
+
+.dropdown-content .logout {
+  position: relative;
+  background-color: #e26565;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  padding: 0.9rem 2rem 0.8rem 1.2rem;
+}
+
+.dropdown-content .logout .logout_text {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+.dropdown-content .logout .logout_icon {
+  flex-shrink: 0;
+  height: 2.2rem;
+  margin-right: 1.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  width: 3.2513rem;
+}

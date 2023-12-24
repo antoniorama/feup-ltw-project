@@ -1,0 +1,185 @@
+.separator {
+  height: 1px;
+  background-color: #888888;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 10px rgba(181, 176, 161, 0.5);
+  background-color: rgba(181, 176, 161, 0.5);
+  padding: 10px;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  margin-top: 30px;
+}
+
+.message-box {
+  display: flex;
+  flex-direction: column;
+  width: calc(35vw);
+  background-color: #eaeaea;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.message-sender {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.message-datestamp {
+  font-size: 12px;
+  color: #888888;
+}
+
+.message-text {
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.ticket-info-box {
+  position: fixed;
+  box-sizing: border-box;
+  right: 0;
+  top: calc(21.5vh);
+  padding: 30px;
+  width: calc(25vw);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: #dddddd;
+  margin-right: 4rem;
+}
+
+/* Styles for screens narrower than 768px */
+@media (max-width: 1000px) {
+  .ticket-info-box {
+    display: none;
+  }
+}
+
+.ticket-info-row {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ticket-info-row-head {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.ticket-info-row-text {
+  font-weight: normal;
+}
+
+/* Any id that starts with "info" */
+.ticket-info-box [id^="info"]:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.ticket-info-new-ticket-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 50px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+
+.ticket-info-new-ticket-button:hover {
+  background-color: var(--main-color-hover);
+}
+
+.ticket-info-new-ticket-button-text {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.image_users {
+  width: 20px;
+  height: 20px;
+}
+
+.new-ticket-popup {
+  position: fixed;
+  width: 60vw;
+  height: 70vh;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 0 30px 0;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.new-ticket-popup-cancel-button {
+  width: 20%;
+  margin: 5px;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.open-new-ticket-popup {
+  visibility: visible;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-form #submit-button {
+  margin-top: 2rem;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.message-form #submit-button:hover {
+  color: goldenrod;
+}
+
+#message-choose-faq-button {
+  margin-top: 2rem;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+#message-choose-faq-button:hover {
+  color: goldenrod;
+}

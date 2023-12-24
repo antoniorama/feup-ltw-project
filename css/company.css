@@ -1,0 +1,27 @@
+.company {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  position: absolute;
+  left: 0;
+}
+
+.company img {
+  flex-shrink: 0;
+  height: 3.8rem;
+  margin-right: 0.8rem;
+  object-fit: contain;
+  position: relative;
+  vertical-align: top;
+  width: 3.8rem;
+}
+
+.company .text_name {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+}

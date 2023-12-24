@@ -1,0 +1,58 @@
+#registerpage {
+  justify-content: center;
+  align-items: center;
+}
+
+.container-registerpage {
+  text-align: center;
+  width: 400px; /* Use px instead of relative unit for resposiveness
+                  this way is width of screen < 400px, it occupies the whole screen */
+}
+
+.container-registerpage .signup_text {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2.8rem;
+  white-space: nowrap;
+}
+
+.register input {
+  background-color: #efefff;
+  border-radius: 0.8rem;
+  border: none;
+  box-sizing: border-box;
+  color: #a7a2ff;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.5rem;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5;
+  padding: 2rem 2.6rem 1.9rem 2.6rem;
+  white-space: nowrap;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.register input[name="confirm-password"] {
+  margin-bottom: 3rem;
+}
+
+.register button {
+  background-color: #4d47c3;
+  border-radius: 0.9rem;
+  box-shadow: 0 0.4rem 6.1rem rgba(77, 71, 195, 0.400000006);
+  color: #ffffff;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 5.9rem;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+  width: 100%;
+  margin-top: 3vh;
+}

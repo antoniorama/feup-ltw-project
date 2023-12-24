@@ -1,0 +1,285 @@
+.side_tab {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.line {
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 24rem;
+  position: absolute;
+  flex-shrink: 0;
+  height: 10000vh; /* probably not the best idea but works */
+  width: 0.1rem;
+}
+
+.button_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 1rem;
+  top: 20vh;
+}
+
+.button_list p {
+  color: #000000;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 400;
+  left: 5rem;
+  position: absolute;
+}
+
+.button_departments {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  margin: 0rem 0rem 1.3rem 0.7rem;
+  width: 19.8rem;
+}
+
+.button_departments .rectangle {
+  background-color: rgba(78, 71, 195, 0.25);
+  border-radius: 1.5rem;
+  height: 4rem;
+  left: 0;
+  position: absolute;
+  width: 19.8rem;
+}
+
+.button_users {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  margin: 0rem 0rem 1.3rem 0.7rem;
+  width: 19.8rem;
+}
+
+.button_users img {
+  position: relative;
+  left: 0.2rem;
+}
+
+.main-tab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 8rem 5.1rem 65.1rem 10.3rem;
+  width: 120.4rem;
+  margin-left: 20rem;
+}
+
+.main-tab .upper_tab {
+  align-items: center;
+  display: flex;
+  height: 7.2rem;
+  margin-bottom: 3.1rem;
+  width: 100%;
+}
+
+.main-tab .upper_tab .main-tab-text {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-right: 24rem;
+  white-space: nowrap;
+}
+
+.main-tab .upper_tab .upper-tab-button {
+  align-items: center;
+  background-color: #a09cf8;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  height: calc(100% - 2.4rem);
+  margin: 1.2rem 0;
+  padding: 0.6rem 2.1rem 0.6rem 1.8rem;
+  transition: 0.4s;
+}
+
+.main-tab .upper_tab .upper-tab-button:hover {
+  background-color: #6d68c3;
+  cursor: pointer;
+}
+
+.main-tab .upper_tab .upper-tab-button p {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.main-tab .upper_tab .upper-tab-button img {
+  flex-shrink: 0;
+  height: 1.8rem;
+  margin: 0rem 1.3rem 0.2rem 0rem;
+  object-fit: contain;
+  vertical-align: top;
+  width: 1.8rem;
+}
+
+.main-tab .table {
+  align-items: center;
+  flex-direction: column;
+  width: 82.8rem;
+}
+
+.table .row1-d:hover {
+  background-color: #ababb1;
+}
+
+.row0-d {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 4.4rem;
+  width: 100%;
+}
+
+.row0-d th {
+  align-items: center;
+  background-color: #d3d1f0;
+  color: #000000;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.row00-d {
+  width: 22.5rem;
+}
+
+.row000-d {
+  width: 60.3rem;
+}
+
+.row1-d {
+  cursor: pointer;
+  background-color: #e3e3e6;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 4.4rem;
+  width: 100%;
+}
+
+.row1-d td {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.row11-d {
+  width: 22.5rem;
+}
+
+.row111-d {
+  width: 60.3rem;
+}
+
+.form2 {
+  display: none;
+}
+
+.upper-tab-button_popup {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 110%;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+
+.popup-content {
+  height: 200px;
+  width: 50rem;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.popup-content img {
+  position: absolute;
+  width: 25px;
+  left: 1rem;
+  cursor: pointer;
+}
+
+.popup-content p {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.popup-content input {
+  margin: 20px auto;
+  padding: 8px;
+  border: 1px solid grey;
+}
+
+.popup-content button {
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 1.2rem 0;
+  padding: 0.6rem 2.1rem 0.6rem 1.8rem;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.popup-content button.popup-content-submit {
+  background-color: #a09cf8;
+}
+
+.popup-content button.popup-content-delete {
+  background-color: #e26565;
+}
+
+.popup-content button.popup-content-submit:hover {
+  background-color: #6d68c3;
+}
+
+.popup-content button.popup-content-delete:hover {
+  background-color: #d34545;
+}
+
+.edit_department_popup {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 110%;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+}

@@ -1,0 +1,86 @@
+/*
+#userview {
+  justify-content: center;
+}
+*/
+
+.container-userview {
+  width: 55%;
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32rem;
+}
+
+.container-userview .text_yourtickets {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.navigation {
+  flex-direction: row;
+  display: flex;
+}
+
+.navigation button,.navigation .navigation-click {
+  color: rgba(0, 0, 0, 0.6499999762);
+  box-shadow: none;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.navigation .navigation-click:hover {
+  color: var(--main-color-hover);
+}
+
+.navigation .navigation-group .navigation-downbar {
+  background-color: #4d47c3;
+  border-radius: 2.5rem;
+  height: 0.3rem;
+}
+
+.userview-upper-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-ticket-button {
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  background-color: var(--main-color);
+  height: 60%;
+  padding: 1rem 2rem;
+}
+
+.new-ticket-button:hover {
+  background-color: var(--main-color-hover);
+}
+
+.label-ticketp0k {
+  margin-right: 2rem;
+}
+
+.form-row {
+}
+
+.form-row #message-box {
+  height: 100px;
+  width: 200px;
+}

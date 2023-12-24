@@ -1,0 +1,249 @@
+.button_users .rectangle {
+  background-color: rgba(78, 71, 195, 0.25);
+  border-radius: 1.5rem;
+  height: 4rem;
+  left: 0;
+  position: absolute;
+  width: 19.8rem;
+}
+
+/* The rest of the sidebar style is done in admin_view_departments.css */
+
+.users_tab {
+  margin-left: 20rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 8rem 5.1rem 65.1rem 10.3rem;
+  width: 120.4rem;
+}
+
+.upper_tab {
+  align-items: center;
+  display: flex;
+  height: 7.2rem;
+  margin-bottom: 3.1rem;
+  width: 100%;
+}
+
+.main-tab-text {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-right: 24rem;
+  white-space: nowrap;
+}
+
+.filter_user {
+  align-items: center;
+  background-color: #a09cf8;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  height: calc(100% - 2.4rem);
+  margin-left: calc(100% - 50rem);
+  padding: 0.6rem 2.1rem 0.6rem 1.8rem;
+  transition: 0.4s;
+}
+
+.filter_user:hover {
+  background-color: #6d68c3;
+  cursor: pointer;
+}
+
+.filter_user p {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.filter_user img {
+  flex-shrink: 0;
+  height: 3rem;
+  margin: 0rem 1.3rem 0.2rem 0rem;
+}
+
+.table .row1-u:hover {
+  background-color: #ababb1;
+}
+
+.row0-u {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 4.4rem;
+  width: 100%;
+}
+
+.row0-u th {
+  align-items: center;
+  background-color: #d3d1f0;
+  color: #000000;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.row00-u {
+  width: 8rem;
+}
+
+.row000-u {
+  width: 27.5rem;
+}
+
+.row0000-u {
+  width: 27.5rem;
+}
+
+.row00000-u {
+  width: 35rem;
+}
+
+.row000000-u {
+  width: 10rem;
+}
+
+.users_tab td {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.row1-u {
+  cursor: pointer;
+  background-color: #e3e3e6;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 4.4rem;
+  width: 100%;
+}
+
+.row11-u {
+  width: 8rem;
+}
+
+.row111-u {
+  width: 27.5rem;
+}
+
+.row1111-u {
+  width: 27.5rem;
+}
+
+.row11111-u {
+  width: 35rem;
+}
+
+.row111111-u {
+  width: 10rem;
+}
+
+.filter_user_popup {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+
+/* Same as .popup_content in admin_view_department.css */
+.filter_user_popup_content {
+  width: 40rem;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+#fup-admin {
+  height: auto;
+}
+
+.filter_user_popup_content img {
+  position: absolute;
+  width: 25px;
+  left: 1rem;
+  cursor: pointer;
+}
+
+.filter_user_popup_content p {
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.filter_user_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.form-row select {
+  margin-left: 10px;
+}
+
+.submit-row {
+  margin-top: 10px;
+}
+
+.submit-row input {
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 1.2rem 0;
+  padding: 0.6rem 2.1rem 0.6rem 1.8rem;
+  transition: 0.4s;
+  cursor: pointer;
+  background-color: #a09cf8;
+  border: none;
+}
+
+.submit-row input:hover {
+  background-color: #6d68c3;
+}

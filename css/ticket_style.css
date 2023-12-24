@@ -1,0 +1,104 @@
+.container_ticket {
+  background-color: var(--main-color);
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  padding: 1.4rem 2.6rem 1.4rem 3.5rem;
+  width: 100%;
+}
+
+.container_ticket .text_title_title {
+  color: #000000;
+  flex-shrink: 0;
+  font-size: 2.2rem;
+  font-family: Poppins, "Source Sans Pro";
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0.7rem 47.7rem 0rem 0rem;
+  white-space: nowrap;
+  margin-right: 1rem;
+}
+
+.container_ticket .text_description {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, "Source Sans Pro";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 65.6rem;
+  margin-bottom: 1rem;
+}
+
+.ticket-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.ticket-info-container p,
+.ticket-info-container button {
+  background-color: white;
+  width: fit-content;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1.5rem;
+  color: black;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  transition: 0.4s;
+  box-shadow: none;
+}
+
+.ticket-info-container .ticket-info-priority-low {
+  background-color: rgba(232, 251, 232, 1);
+  color: rgba(90, 156, 90, 1);
+}
+
+.ticket-info-container .ticket-info-priority-medium {
+  background-color: rgba(231, 244, 254, 1);
+  color: rgba(56, 104, 212, 1);
+}
+
+.ticket-info-container .ticket-info-priority-high {
+  background-color: rgba(249, 217, 228, 1);
+  color: rgba(218, 59, 91, 1);
+}
+
+.message-number-img {
+  margin-left: 0.5rem;
+}
+
+.ticket-info-container .message-number-text {
+  background-color: transparent;
+  padding-left: 0.5rem;
+}
+
+.ticket-info-container .ticket-info-status {
+  background-color: rgba(232, 251, 232, 1);
+  color: rgba(90, 156, 90, 1);
+}
+
+.ticket-info-container #tag-agent:hover {
+  background-color: red;
+}
+
+.ticket-info-department {
+  background-color: rgba(231, 244, 254, 1);
+  width: fit-content;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 1.5rem;
+  color: rgba(56, 104, 212, 1);
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.ticket-info-time {
+  float: right;
+  font-size: 1.5rem;
+}
+
+#new-faq-button {
+  height: 30rem;
+}
