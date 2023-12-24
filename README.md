@@ -1,4 +1,6 @@
-# TicketCare - LTW Project 22/23
+# TicketCare - Web Languages and Technologies	
+
+TicketCare is a support ticketing system website developed using only core web technologies: **HTML**, **CSS**, **PHP**, **JavaScript**, **AJAX**, and **SQLite** for handling the database management.
 
 ### Set up
 - There is a default database already set up.
